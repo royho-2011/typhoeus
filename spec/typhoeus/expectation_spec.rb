@@ -106,8 +106,12 @@ describe Typhoeus::Expectation do
     it "returns responses" do
       expect(expectation.responses).to be_a(Array)
     end
+
+    
   end
 
+
+  
   describe "#response" do
     let(:request) { Typhoeus::Request.new("") }
 
